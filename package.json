@@ -1,0 +1,22 @@
+{
+  "name": "@antoineguglielmi/tw-spacing",
+  "version": "0.0.5",
+  "description": "Tailwind spacing customization",
+  "author": "Antoine Guglielmi",
+  "license": "MIT",
+  "main": "dist/spacing.js",
+  "types": "dist/spacing.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tailwindcss",
+    "spacing",
+    "typescript"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
